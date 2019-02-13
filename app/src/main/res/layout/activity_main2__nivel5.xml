@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity_Nivel5"
+    android:background="@drawable/wallpaperprincipal">
+
+    <TextView
+        android:id="@+id/text_nombre"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/name_jugador"
+        android:textColor="@color/primary_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_score"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/score"
+        android:textColor="@color/primary_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_manzanas"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/et_vidas"
+        android:textColor="@color/primary_text"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imag_vidas"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="77dp"
+        android:src="@drawable/tresvidas"
+        android:contentDescription="@string/app_name"/>
+
+    <ImageView
+        android:id="@+id/num_1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="147dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/cero" />
+
+    <ImageView
+        android:id="@+id/signomulti"
+        android:layout_width="101dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="267dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/multiplicacion" />
+
+    <ImageView
+        android:id="@+id/num_2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/num_1"
+        android:src="@drawable/cero"
+        android:layout_marginLeft="-141dp"
+        android:layout_toRightOf="@+id/signomulti"
+        android:contentDescription="@string/app_name"/>
+
+    <EditText
+        android:id="@+id/edit_rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="167dp"
+        android:inputType="number"
+        android:hint="@string/et_respuesta" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/edit_rest"
+        android:layout_alignEnd="@+id/num_2"
+        android:layout_alignRight="@+id/num_2"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-11dp"
+        android:layout_marginRight="-11dp"
+        android:background="@drawable/fondoboton"
+        android:text="@string/btn_sumar"
+        android:textColor="@color/icons"
+        android:onClick="Comparar"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Frutiapp1</string>
+    <string name="et_name">¿Cómo te llamas?</string>
+    <string name="btn_play">Jugar</string>
+    <string name="primero_nombre">Primero debes escribir tu nombre</string>
+    <string name="et_vidas">Manzanas:</string>
+    <string name="name_jugador">Jugador:</string>
+    <string name="btn_sumar">Comprobar</string>
+    <string name="et_respuesta">Tú respuesta</string>
+    <string name="score">Score: 0</string>
+    <string name="nivel1">Nivel 1 - Sumas básicas</string>
+    <string name="nivel2">Nivel 2 - Sumas moderadas</string>
+    <string name="nivel3">Nivel 3 - Restas</string>
+    <string name="nivel4">Nivel 4 - Sumas y Restas</string>
+    <string name="nivel5">Nivel 5 - Multiplicacion</string>
+    <string name="nivel6">Nivel 5 - Suma, Resta y Multiplicacion</string>
+    <string name="mensaje">Escribe tu respuesta</string>
+    <string name="dos_manzanas">Te quedan 2 manzanas</string>
+    <string name="una_manzana">Te Queda 1 manzana</string>
+    <string name="perdio">Has perdido todas tus manzanas</string>
+    <string name="jugador">Jugador:</string>
+    <string name="gano">Felicidades, eres un genio!</string>
+</resources>

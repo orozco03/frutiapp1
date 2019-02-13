@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/globos"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/ImageView_personaje"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/manzana"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fondoet"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:hint="@string/et_name"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+        android:maxLength="15"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fondoboton"
+        android:text="@string/btn_play"
+        android:textColor="@color/icons"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+        android:onClick="Jugar"/>
+
+    <TextView
+        android:id="@+id/textView_BestScore"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fondoet"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
